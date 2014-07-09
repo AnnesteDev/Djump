@@ -24,6 +24,7 @@
 		E563D7AC187308760078F131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E563D787187308760078F131 /* UIKit.framework */; };
 		E563D7B4187308760078F131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E563D7B2187308760078F131 /* InfoPlist.strings */; };
 		E563D7B6187308760078F131 /* DJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E563D7B5187308760078F131 /* DJumpTests.m */; };
+		E563D7C1187309A40078F131 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E563D7C0187309A40078F131 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		E563D7B1187308760078F131 /* DJumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJumpTests-Info.plist"; sourceTree = "<group>"; };
 		E563D7B3187308760078F131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E563D7B5187308760078F131 /* DJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJumpTests.m; sourceTree = "<group>"; };
+		E563D7BF187309A40078F131 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E563D7C0187309A40078F131 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				E563D7A0187308760078F131 /* Spaceship.png */,
 				E563D7A2187308760078F131 /* Images.xcassets */,
 				E563D78C187308760078F131 /* Supporting Files */,
+				E563D7BF187309A40078F131 /* Player.h */,
+				E563D7C0187309A40078F131 /* Player.m */,
 			);
 			path = DJump;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				E563D79C187308760078F131 /* ViewController.m in Sources */,
 				E563D796187308760078F131 /* AppDelegate.m in Sources */,
 				E563D792187308760078F131 /* main.m in Sources */,
+				E563D7C1187309A40078F131 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
